@@ -9,12 +9,14 @@
 }
 
 :root{
-    --cor0: #ebe5c5;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
+    --cor0: #F5F7F6;
+    --cor1: #E8F3ED;
+    --cor2: #34C26E;
+    --cor3: #2E7D57;
+    --cor4: #1B5E3B;
+    --cor5: #0F3D2E;
+
+
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
@@ -81,7 +83,7 @@ nav > a{
 }
 
 nav > a:hover{
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: var(--cor5);
 }
 
@@ -92,7 +94,7 @@ main{
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.423);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -103,6 +105,7 @@ main h1{
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
+    margin-top: 0;
 }
 
 main h2{
